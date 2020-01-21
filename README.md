@@ -1,6 +1,8 @@
 # weather_neumorphism_ui
 
-A new Flutter application.
+Simple representation of neumorphic design in flutter.
+</br>
+<img src="ss/1.png" width="400">
 
 ## Getting Started
 
