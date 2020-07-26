@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Constants{
-
+class Constants {
   //App related strings
   static String appName = "Weather Stats";
-
 
   //Colors for theme
   static Color lightPrimary = Color(0xfff2f3f7);
@@ -17,14 +15,13 @@ class Constants{
   static ThemeData lightTheme = ThemeData(
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
-    accentColor:  lightAccent,
+    accentColor: lightAccent,
     cursorColor: lightAccent,
     scaffoldBackgroundColor: lightBG,
   );
 
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
-//    backgroundColor: darkBG,
     primaryColor: darkPrimary,
     accentColor: darkAccent,
     scaffoldBackgroundColor: darkBG,
